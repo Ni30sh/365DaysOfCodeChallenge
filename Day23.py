@@ -6,6 +6,7 @@ def mergeSort(arr, n):
 def _mergeSort(arr, temp_arr, left, right):
     inv_count = 0
     
+    
     if left < right:
         # Find mid point
         mid = (left + right)//2
