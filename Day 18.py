@@ -65,7 +65,7 @@ def kmp_search(txt, pat):
             else:
                 lps[i] = 0
                 i += 1
-    return lps
+        return lps
 
 def kmp_search(txt, pat):
     N = len(txt)
